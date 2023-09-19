@@ -55,7 +55,7 @@ class friday {
     PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("friday.out")));
     // Use StringTokenizer vs. readLine/split -- lots faster
     StringTokenizer st = new StringTokenizer(f.readLine());
-    beads friday = new beads();
+    friday friday = new friday();
   
     Map<Day, Integer> ans = friday.compute(Integer.parseInt(st.nextToken()));
     StringBuilder str = new StringBuilder();
