@@ -1,3 +1,16 @@
 {
-    "python.terminal.executeInFileDir": true
+    "python.terminal.executeInFileDir": true,
+    "java.project.sourcePaths": [
+        "usaco/milk2",
+        "usaco/friday",
+        "usaco/beads",
+        "usaco",
+        "codeforces/71A_LongWords",
+        "codeforces/4A_Watermelon",
+        "codeforces/231A_Team",
+        "codeforces/158A_NextRound",
+        "codeforces/1399B_GiftsFixing",
+        "codeforces/50A_DominoPiling"
+    ],
+    "java.debug.settings.onBuildFailureProceed": true
 }
